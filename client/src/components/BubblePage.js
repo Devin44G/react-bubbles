@@ -17,7 +17,6 @@ const BubblePage = () => {
       })
       .catch(err => console.error('THERE HAS BEEN AN ERROR: ', err));
   }, []);
-  // set that data to the colorList state property
 
   return (
     <>
